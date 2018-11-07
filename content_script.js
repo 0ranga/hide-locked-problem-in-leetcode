@@ -18,6 +18,7 @@
         const trs = document.querySelectorAll('.reactable-data tr');
         for (let i = 0; i < trs.length; i++) {
           if (trs[i].querySelector('.fa-lock')) trs[i].style.display = 'none';
+          else trs[i].style.display = 'table-row';
         }
       }, 100);
     }
