@@ -1,5 +1,2 @@
-# Hide Locked Problem in LeetCode
-A Chrome Extension to hide the locked ones!
-
-## How to Use
-After install it, it is auto to hidden the locked ones!
+# Hide Locked Problems in LeetCode for Greasemonkey users
+A Greasemonkey Script to hide the locked ones!
