@@ -17,7 +17,7 @@
       target = setTimeout(() => {
         const trs = document.querySelectorAll('.reactable-data tr');
         for (let i = 0; i < trs.length; i++) {
-          if (trs[i].querySelector('.fa-lock')) trs[i].style.display = 'none';
+          if (trs[i].querySelector('td:nth-child(3) .fa-lock')) trs[i].style.display = 'none';
           else trs[i].style.display = 'table-row';
         }
       }, 100);
